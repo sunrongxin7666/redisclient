@@ -1,7 +1,6 @@
 package srx.awesome.code.redisclient;
 
 import org.junit.After;
-import org.junit.Assert;
 import org.junit.Test;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
@@ -12,6 +11,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * Jedis Demo
+ * By Sun Rongxin
+ */
 public class RedisClientDemo {
     private JedisPool jedisPool;
 
